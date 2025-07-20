@@ -1,0 +1,103 @@
+import NotificationProfile from "../assets/Images/notificationprofile.svg"
+
+const NotificatinData = [
+  {
+    id: 1,
+    title: "Rocky’s lost report has been approved.",
+    description: "His report (#PF–10001) was reviewed and published successfully.",
+    time: "1 min ago",
+    unread: true,
+    avatar: NotificationProfile,
+  },
+  {
+    id: 2,
+    title: "New Donation Received — PKR 5,000",
+    description: 'Sarah Khan donated to “Save Street Dogs” campaign.',
+    time: "3 hours ago",
+    unread: false,
+     avatar: NotificationProfile,
+  },
+  {
+    id: 3,
+    title: "Confirm Last Seen Location for Max",
+    description: 'User submitted “Central Park, NY” as last seen please verify.',
+    time: "10 mins ago",
+    unread: true,
+    avatar: NotificationProfile,
+  },
+  {
+    id: 4,
+    title: "Report Flagged Multiple Times",
+    description: "Lost report #PF–10003 was flagged by 3 users for review.",
+    time: "Yesterday",
+    unread: false,
+    avatar: NotificationProfile,
+  },
+   {
+    id: 5,
+    title: "Rocky’s lost report has been approved.",
+    description: "His report (#PF–10001) was reviewed and published successfully.",
+    time: "1 min ago",
+    unread: true,
+    avatar: NotificationProfile,
+  },
+  {
+    id: 6,
+    title: "New Donation Received — PKR 5,000",
+    description: 'Sarah Khan donated to “Save Street Dogs” campaign.',
+    time: "3 hours ago",
+    unread: false,
+   avatar: NotificationProfile,
+  },
+  {
+    id: 7,
+    title: "Confirm Last Seen Location for Max",
+    description: 'User submitted “Central Park, NY” as last seen please verify.',
+    time: "10 mins ago",
+    unread: true,
+    avatar: NotificationProfile,
+  },
+  {
+    id: 8,
+    title: "Report Flagged Multiple Times",
+    description: "Lost report #PF–10003 was flagged by 3 users for review.",
+    time: "Yesterday",
+    unread: false,
+   avatar: NotificationProfile,
+  },
+   {
+    id: 9,
+    title: "Rocky’s lost report has been approved.",
+    description: "His report (#PF–10001) was reviewed and published successfully.",
+    time: "1 min ago",
+    unread: true,
+  avatar: NotificationProfile,
+  },
+  {
+    id: 10,
+    title: "New Donation Received — PKR 5,000",
+    description: 'Sarah Khan donated to “Save Street Dogs” campaign.',
+    time: "3 hours ago",
+    unread: false,
+     avatar: NotificationProfile,
+  },
+  {
+    id: 11,
+    title: "Confirm Last Seen Location for Max",
+    description: 'User submitted “Central Park, NY” as last seen please verify.',
+    time: "10 mins ago",
+    unread: true,
+    avatar: NotificationProfile,
+  },
+  {
+    id: 12,
+    title: "Report Flagged Multiple Times",
+    description: "Lost report #PF–10003 was flagged by 3 users for review.",
+    time: "Yesterday",
+    unread: false,
+     avatar: NotificationProfile,
+  },
+];
+
+
+export default NotificatinData

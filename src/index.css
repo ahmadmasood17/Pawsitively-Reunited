@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@font-face {
+  font-weight: 400;
+  font-family: DMSans;
+  src: url("./assets/Fonts/DMSans/static/DMSans-Regular.ttf");
+}
+@font-face {
+  font-weight: 700;
+  font-family: DMSans;
+  src: url("./assets/Fonts/DMSans/static/DMSans-Bold.ttf");
+}
+@font-face {
+  font-weight: 900;
+  font-family: DMSans;
+  src: url("./assets/Fonts/DMSans/static/DMSans-Black.ttf");
+}
+body{
+    font-family: DMSans;
+    font-weight: 400;
+    background-color: #F1F5F9;
+    padding: 16px;
+}
+.input-bg{
+  background-image: url("./assets/Images/search.svg");
+  background-size: 20px;
+  background-position:12px 8px;
+  background-repeat: no-repeat;
+}
+
+
+input[type='range'].no-thumb::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 0;
+  height: 0;
+  background: transparent;
+  border: none;
+}
+
+input[type='range'].no-thumb::-moz-range-thumb {
+  width: 100%;
+  height:100%;
+   background: transparent;
+  border: none; 
+}
